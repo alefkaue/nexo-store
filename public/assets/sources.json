@@ -1,0 +1,14 @@
+{
+  "hero-laptop.webp": {
+    "url": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+    "product": "Apple MacBook Pro 14 Inch Space Grey",
+    "id": 78,
+    "sha256": "7aebd15251918e8bb96829c80ddce7f487c22e55fa6751b632ea596084c1d0e6"
+  },
+  "living.webp": {
+    "url": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/1.webp",
+    "product": "Table Lamp",
+    "id": 47,
+    "sha256": "0867beea2c2781b480f05f7b171912fa8588a877eccc6190a6a5cc37fdf44b52"
+  }
+}

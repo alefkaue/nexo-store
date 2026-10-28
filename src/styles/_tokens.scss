@@ -1,0 +1,37 @@
+@use 'sass:map';
+$ink: #182625;
+$muted: #58645e;
+$page: #fffefa;
+$surface: #f3f4ee;
+$lime: #d6f58b;
+$line: #dfe3da;
+$sage: #e7eee4;
+$peach: #f2e3d8;
+$lavender: #ece8f3;
+$sand: #f1ecdf;
+$radius: 18px;
+$spacing: (
+  1: 4px,
+  2: 8px,
+  3: 12px,
+  4: 16px,
+  5: 20px,
+  6: 24px,
+  8: 32px,
+  10: 40px,
+  12: 48px,
+  16: 64px,
+  20: 80px,
+);
+@function space($step) {
+  @return map.get($spacing, $step);
+}
+@mixin below($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+@mixin focus-ring {
+  outline: 2px solid #526c2f;
+  outline-offset: 4px;
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR">
+  <meta charset="utf-8" /><meta name="robots" content="noindex" /><title>
+    NEXO Store — abrindo sua seleção
+  </title>
+  <body>
+    <p>Abrindo sua seleção na NEXO…</p>
+    <script>
+      const base = '/nexo-store/'
+      if (location.pathname.startsWith(base)) {
+        const path = '/' + location.pathname.slice(base.length) + location.search + location.hash
+        const url = new URL(base, location.origin)
+        url.searchParams.set('__path', path)
+        location.replace(url)
+      } else {
+        document.body.innerHTML =
+          '<p>Página não encontrada. <a href="/nexo-store/">Ir para a NEXO Store</a></p>'
+      }
+    </script>
+  </body>
+</html>
