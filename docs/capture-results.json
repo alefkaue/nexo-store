@@ -1,0 +1,21 @@
+{
+  "source": "Aplicação executada com API DummyJSON real, sem interceptação de dados.",
+  "observations": [
+    {
+      "name": "desktop",
+      "url": "http://127.0.0.1:4173/",
+      "http": 200,
+      "errors": [],
+      "horizontalOverflow": false,
+      "realProducts": 8
+    },
+    {
+      "name": "mobile",
+      "url": "http://127.0.0.1:4173/",
+      "http": 200,
+      "errors": [],
+      "horizontalOverflow": false,
+      "realProducts": 8
+    }
+  ]
+}
