@@ -1,7 +1,5 @@
 # NEXO Store
 
-**Área do portfólio:** [Desenvolvimento de Software](https://github.com/alefkaue#desenvolvimento-de-software) · **Contexto:** Projeto pessoal
-
 **E-commerce front-end de tecnologia e casa, com identidade própria e uma jornada de compra completa.**
 
 [Abrir demonstração](https://alefkaue.github.io/nexo-store/) · [Validações e deploy](https://github.com/alefkaue/nexo-store/actions/workflows/quality-pages.yml) · [Decisões técnicas](docs/ARCHITECTURE.md)
